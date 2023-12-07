@@ -6,6 +6,15 @@ font-family: 'Junge', cursive;*/
   --heading-font: "Judson", serif;
   --default-font: "Junge", cursive;
 }
+/*@media (max-width: 700px) {
+  .right {
+    display: none;
+  }
+
+  .split {
+    display: block;
+  }
+}*/
 .navbar {
   background-color: white;
 }
@@ -20,6 +29,16 @@ font-family: 'Junge', cursive;*/
   background-color: var(--primary-color);
   height: 100%;
   width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.split_content {
+  background-color: var(--primary-color);
+  height: 100%;
+
   position: fixed;
   z-index: 1;
   top: 0;
