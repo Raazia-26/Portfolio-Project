@@ -6,6 +6,16 @@ font-family: 'Junge', cursive;*/
   --heading-font: "Judson", serif;
   --default-font: "Junge", cursive;
 }
+.navbar {
+  background-color: white;
+}
+.offcanvas-title {
+  font-family: var(--heading-font);
+}
+.nav-link {
+  font-family: var(--default-font);
+}
+
 .split {
   background-color: var(--primary-color);
   height: 100%;
@@ -17,7 +27,7 @@ font-family: 'Junge', cursive;*/
   padding-top: 20px;
 }
 .container {
-  margin-top: 110px;
+  margin-top: 135px;
 }
 .right {
   right: 0;
@@ -38,18 +48,23 @@ font-family: 'Junge', cursive;*/
   margin: 0 auto;
   margin-top: 50px;
 }
+.img_portfolio {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 78px;
+}
 .colored_text {
   color: var(--secondary-color);
 }
 h3 {
   font-family: var(--default-font);
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1;
 }
 h1 {
   font-family: var(--heading-font);
   font-weight: 700;
-  font-size: 120px;
+  font-size: 110px;
 }
 button {
   padding: 15px 40px;
