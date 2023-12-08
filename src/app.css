@@ -6,15 +6,7 @@ font-family: 'Junge', cursive;*/
   --heading-font: "Judson", serif;
   --default-font: "Junge", cursive;
 }
-/*@media (max-width: 700px) {
-  .right {
-    display: none;
-  }
 
-  .split {
-    display: block;
-  }
-}*/
 .navbar {
   background-color: white;
 }
@@ -63,8 +55,6 @@ font-family: 'Junge', cursive;*/
 .circle {
   width: 500px;
   height: 500px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
   border-radius: 265px;
   background: var(--secondary-color);
   display: block;
@@ -125,4 +115,19 @@ p {
 .app-link {
   background-color: var(--primary-color);
   text-decoration: none;
+}
+.colored_container {
+  background-color: var(--primary-color);
+  padding: 80px;
+}
+.solid {
+  border-top: 2px solid var(--primary-color);
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.contact_content {
+  text-align: center;
+  font-size: 32px;
 }
