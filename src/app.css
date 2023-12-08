@@ -99,3 +99,11 @@ button {
   border: solid 1px var(--primary-color);
   color: var(--secondary-color);
 }
+
+.abt_heading {
+  padding-top: 50px;
+}
+p {
+  text-align: justify;
+  line-height: 2;
+}
