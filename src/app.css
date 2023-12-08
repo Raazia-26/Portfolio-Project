@@ -86,13 +86,26 @@ h1 {
 }
 .colored_btn {
   background-color: var(--primary-color);
+  text-decoration: none;
   border: none;
   color: white;
+  transition: all 0.5s ease-out;
+}
+.colored_btn:hover {
+  background-color: white;
+  border: solid 1px var(--primary-color);
+  color: var(--secondary-color);
 }
 .default_btn {
   background-color: white;
   border: solid 1px var(--primary-color);
   color: var(--secondary-color);
+  transition: all 0.5s ease-out;
+}
+.default_btn:hover {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
 }
 
 .abt_heading {
@@ -112,10 +125,7 @@ p {
   font-weight: 700;
   color: var(--secondary-color);
 }
-.app-link {
-  background-color: var(--primary-color);
-  text-decoration: none;
-}
+
 .colored_container {
   background-color: var(--primary-color);
   padding-top: 40px;
@@ -137,7 +147,4 @@ p {
   font-family: var(--default-font);
   text-decoration: none;
   color: black;
-}
-img {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
