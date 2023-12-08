@@ -118,7 +118,9 @@ p {
 }
 .colored_container {
   background-color: var(--primary-color);
-  padding: 80px;
+  padding-top: 40px;
+  padding-right: 80px;
+  padding-bottom: 80px;
 }
 .solid {
   border-top: 2px solid var(--primary-color);
@@ -129,5 +131,10 @@ p {
 }
 .contact_content {
   text-align: center;
+  margin: auto;
+  display: block;
   font-size: 32px;
+  font-family: var(--default-font);
+  text-decoration: none;
+  color: black;
 }
