@@ -24,6 +24,10 @@ font-family: 'Junge', cursive;*/
 .nav-link {
   font-family: var(--default-font);
 }
+.navbar-brand {
+  border: solid 3px black;
+  padding: 2px 10px;
+}
 
 .split {
   background-color: var(--primary-color);
@@ -85,9 +89,10 @@ h1 {
   font-weight: 700;
   font-size: 110px;
 }
-button {
+.link_button {
   padding: 15px 40px;
   font-family: var(--default-font);
+  text-decoration: none;
 }
 .colored_btn {
   background-color: var(--primary-color);
@@ -106,4 +111,18 @@ button {
 p {
   text-align: justify;
   line-height: 2;
+  font-family: var(--default-font);
+}
+.project_img {
+  height: 315;
+  width: 200px;
+}
+.app_name {
+  font-family: var(--default-font);
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+.app-link {
+  background-color: var(--primary-color);
+  text-decoration: none;
 }
