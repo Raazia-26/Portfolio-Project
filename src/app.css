@@ -23,7 +23,7 @@ font-family: 'Junge', cursive;*/
   transition: all 1s ease-out;
 }
 .navbar-brand:hover {
-  transform: rotate(1turn);
+  transform: scaleX(-1);
 }
 
 .split {
