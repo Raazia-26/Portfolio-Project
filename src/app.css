@@ -16,9 +16,14 @@ font-family: 'Junge', cursive;*/
 .nav-link {
   font-family: var(--default-font);
 }
+
 .navbar-brand {
   border: solid 3px black;
   padding: 2px 10px;
+  transition: all 1s ease-out;
+}
+.navbar-brand:hover {
+  transform: rotate(1turn);
 }
 
 .split {
@@ -148,3 +153,43 @@ p {
   text-decoration: none;
   color: black;
 }
+
+.social_links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 25px;
+  background-color: whitesmoke;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.social_links a:hover {
+  color: whitesmoke;
+  background-color: var(--primary-color);
+  transition: all 0.5s ease-out;
+}
+.large_img {
+  transition: all 0.25s ease-in-out;
+}
+.large_img:hover {
+  transform: scale(2);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .link_button {
+    padding: 10px 20px;
+  }
+  .contact_content {
+    font-size: 25px;
+  }
+}
+
+/*font size for heading small and smaller for repsonsive
+gap between images (mb) in about page*/
