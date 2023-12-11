@@ -175,7 +175,17 @@ p {
 .large_img:hover {
   transform: scale(2);
 }
-
+.footer_content {
+  font-size: 12px;
+}
+.github_footer {
+  text-decoration: none;
+  color: black;
+  transition: all 0.25s ease-in-out;
+}
+.github_footer:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 80px;
@@ -190,6 +200,3 @@ p {
     font-size: 25px;
   }
 }
-
-/*font size for heading small and smaller for repsonsive
-gap between images (mb) in about page*/
